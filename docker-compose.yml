@@ -1,4 +1,3 @@
-```yaml
 services:
   prometheus:
     image: prom/prometheus:latest
@@ -57,4 +56,4 @@ volumes:
 networks:
   monitoring:
     driver: bridge
-```
+
